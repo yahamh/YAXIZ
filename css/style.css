@@ -5078,7 +5078,7 @@ a.close.disabled {
   margin-bottom: 0;
   font-size: 1rem;
   background-color: #f7f7f7;
-  border-bottom: 1px solid #bcbcbc;
+  border-bottom: 1px solid #62c5eb;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px); }
   .popover-header:empty {
@@ -8521,20 +8521,20 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #bcbcbc !important;
-    border: 1px solid #bcbcbc !important;
+    background: #62c5eb !important;
+    border: 1px solid #62c5eb !important;
     color: #fff !important; }
     .btn.btn-primary:hover {
-      border: 1px solid #bcbcbc;
+      border: 1px solid #62c5eb;
       background: transparent;
-      color: #bcbcbc; }
+      color: #62c5eb; }
     .btn.btn-primary.btn-outline-primary {
-      border: 1px solid #36b76ff;
+      border: 1px solid #36b76f;
       background: transparent;
-      color: #36b76ff; }
+      color: #36b76f; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 1px solid transparent;
-        background: #36b76ff;
+        background: #36b76f;
         color: #fff; }
   .btn.btn-black {
     background: #000000 !important;
@@ -8956,7 +8956,7 @@ textarea.form-control {
 
 .testimony-section {
   position: relative;
-  background: #bcbcbc; }
+  background: #62c5eb; }
   .testimony-section .testimony-img {
     display: block;
     width: 100%;
