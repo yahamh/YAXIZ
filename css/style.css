@@ -8230,7 +8230,7 @@ h1, h2, h3, h4, h5,
     padding-left: 20px;
     padding-right: 20px;
     font-weight: 700;
-    color: #fff;
+    color: rgb(161, 161, 161);
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
       color: #62c5eb; }
