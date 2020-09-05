@@ -18,7 +18,6 @@
 html,
 body {
 	height: 100%;
-	font-family: "Poppins", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -316,40 +315,7 @@ ol {
 
 /* Tab */
 
-.tab-element .nav-tabs {
-	border-bottom: none;
-	margin-bottom: 25px;
-}
 
-.tab-element .nav-item {
-	margin-right: 10px;
-	margin-bottom: 10px;
-}
-
-.tab-element .nav-tabs .nav-link {
-	border: 2px solid #212121;
-	text-align: left;
-	background-color: transparent;
-	border-radius: 0;
-	position: relative;
-	width: 100%;
-	padding: 23px 38px;
-	font-size: 14px;
-	text-transform: uppercase;
-	color: #323232;
-	font-weight: 500;
-	line-height: 1.3;
-	cursor: pointer;
-}
-
-.tab-element .nav-tabs .nav-item:last-child {
-	margin-right: 0;
-}
-
-.tab-element .nav-tabs .nav-link.active {
-	background: #212121;
-	color: #fff;
-}
 
 .tab-element .tab-pane p {
 	margin-bottom: 0;
@@ -494,14 +460,7 @@ ol {
 	font-size: 19px;
 }
 
-.header-controls button.nav-switch-btn {
-	font-size: 21px;
-	margin-right: 25px;
-}
 
-.slicknav_menu {
-	display: none;
-}
 
 .main-menu {
 	list-style: none;
@@ -518,40 +477,14 @@ ol {
 	display: none;
 }
 
-.main-menu li a {
-	display: block;
-	font-size: 13px;
-	color: #121212;
-	font-weight: 600;
-	text-transform: uppercase;
-	padding: 25px 0;
-	margin-right: 45px;
-}
 
-.main-menu li .sub-menu {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	width: 220px;
-	background: #fff;
-	visibility: hidden;
-	opacity: 0;
-	margin-top: 50px;
-	padding: 10px 0 5px;
-	-webkit-box-shadow: 0 15px 50px 1px rgba(0, 0, 0, 0.13);
-	box-shadow: 0 15px 50px 1px rgba(0, 0, 0, 0.13);
-	-webkit-transition: all 0.4s;
-	transition: all 0.4s;
-}
+
 
 .main-menu li .sub-menu li {
 	display: block;
 }
 
-.main-menu li .sub-menu li a {
-	padding: 10px 15px;
-	text-transform: none;
-}
+
 
 .main-menu li:hover .sub-menu {
 	visibility: visible;
@@ -631,12 +564,7 @@ ol {
 	padding: 40px 0;
 }
 
-.hero-social-links a {
-	display: block;
-	padding: 16px 0;
-	font-size: 16px;
-	color: #121212;
-}
+
 
 /* ----------------
   Intro section
@@ -740,12 +668,7 @@ ol {
 	text-align: right;
 }
 
-.footer-social-links a {
-	display: inline-block;
-	color: #fff;
-	font-size: 17px;
-	margin-left: 40px;
-}
+
 
 /*------------------
 ====================
@@ -841,15 +764,7 @@ ol {
 	padding: 0 15px;
 }
 
-.portfolio-filter li {
-	display: inline-block;
-	font-size: 14px;
-	color: #212121;
-	font-weight: 500;
-	margin-right: 46px;
-	text-transform: uppercase;
-	cursor: pointer;
-}
+
 
 .portfolio-filter li:last-child {
 	margin-right: 0;
@@ -1057,14 +972,6 @@ ol {
 	text-align: center;
 }
 
-.site-pagination a {
-	display: inline-block;
-	height: 42px;
-	font-size: 14px;
-	font-weight: 500;
-	color: #888888;
-	padding: 11px 5px;
-}
 
 .site-pagination a.current {
 	color: #fff;
@@ -1103,12 +1010,7 @@ ol {
 	list-style: none;
 }
 
-.contact-text ul li {
-	font-size: 14px;
-	font-weight: 500;
-	color: #212121;
-	line-height: 1.9;
-}
+
 
 .contact-form {
 	padding-top: 20px;
@@ -1171,9 +1073,7 @@ ol {
 	.site-logo {
 		padding-left: 15px;
 	}
-	.main-menu li a {
-		margin-right: 15px;
-	}
+
 	.header-controls {
 		padding: 16px 15px 0 20px;
 	}
@@ -1261,27 +1161,7 @@ ol {
 	.main-menu {
 		display: none !important;
 	}
-	.slicknav_menu {
-		display: block;
-		background: transparent;
-	}
-	.slicknav_btn {
-		margin: 0 auto 20px;
-		background: #081624;
-		float: none;
-		display: inline-block;
-	}
-	.slicknav_nav {
-		background: #081624;
-		text-align: left;
-		padding: 8px 5px;
-		margin-bottom: 15px;
-	}
-	.slicknav_nav a:hover,
-	.slicknav_nav .slicknav_row:hover {
-		background: #25394c;
-		color: #fff;
-	}
+	
 	.skill-warp {
 		padding-left: 0px;
 	}
@@ -1367,10 +1247,7 @@ ol {
 		padding: 30px 0;
 		border-bottom: 1px solid #e8e8e8;
 	}
-	.hero-social-links a {
-		display: inline-block;
-		padding: 5px 10px;
-	}
+	
 	.map {
 		height: 400px;
 	}
